@@ -21,7 +21,6 @@ function getLocation() {
 
 function reportPosition( position ){ 
   showPosition(position);
-
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
   var width = "400";
