@@ -27,7 +27,7 @@ function reportPosition( position ){
   var height = "400";
   var key = "AIzaSyCUSg0ii3W4VzjgUOt_Zd75un55prpi-So";
   var url = "https://maps.googleapis.com/maps/api/staticmap?center="+latitude+","+longitude+
-  			"&zoom=14&size="+width+"x"+height+"&maptype=roadmap&key="+key;
+  			"&zoom=14&size="+width+"x"+height+"&maptype=roadmap&markers=color:red%7C"+latitude+","+longitude+"&key="+key;
   var canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
